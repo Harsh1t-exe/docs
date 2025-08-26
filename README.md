@@ -1,6 +1,9 @@
 # Google Docs Clone
 
-A collaborative document editor built with React, Quill, MongoDB, and Socket.IO. Inspired by https://github.com/WebDevSimplified/google-docs-clone.
+A collaborative document editor built with React, Quill, MongoDB, and Socket.IO.
+
+# Live demo
+https://docs-1-cig9.onrender.com/
 
 ## Features
 - Real-time collaborative editing
