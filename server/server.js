@@ -10,7 +10,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'https://docs-1-cig9.onrender.com/',
+    origin: 'https://docs-1-cig9.onrender.com',
     methods: ['GET', 'POST']
   }
 });
