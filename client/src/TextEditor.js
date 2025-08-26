@@ -30,7 +30,7 @@ function TextEditor() {
 
   useEffect(() => {
     if (!username) return;
-    socketRef.current = io('http://localhost:5000');
+  socketRef.current = io(process.env.REACT_APP_API_URL);
     const quill = new Quill(quillRef.current, {
       theme: 'snow',
       modules: {
