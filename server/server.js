@@ -15,7 +15,10 @@ const io = new Server(server, {
   }
 });
 
-mongoose.connect('mongodb://localhost:27017/google-docs-clone', {
+
+require('dotenv').config();
+const mongoURL = process.env.MONGO_URI;
+mongoose.connect(mongoURL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
